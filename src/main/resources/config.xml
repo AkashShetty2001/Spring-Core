@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="-->
+<!--        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
 
-    <!-- bean definitions here -->
-    <!-- bean is basically a object which is managed by spring-->
+<!--    &lt;!&ndash; bean definitions here &ndash;&gt;-->
+<!--    &lt;!&ndash; bean is basically a object which is managed by spring&ndash;&gt;-->
 
-    <bean class="SpringCore.Engine" id="engine">
-        <property name="name" value="Ford"> </property>
-    </bean>
-    <bean class="SpringCore.Car" id="car" autowire="byName">
-        <property name="carName" value="BMW"> </property>
-       <!-- <property name="engine" ref="engine"> </property>-->
-    </bean>
+<!--    <bean class="SpringCore.Engine" id="engine">-->
+<!--        <property name="name" value="Ford"> </property>-->
+<!--    </bean>-->
+<!--    <bean class="SpringCore.Car" id="car" autowire="byName">-->
+<!--        <property name="carName" value="BMW"> </property>-->
+<!--       &lt;!&ndash; <property name="engine" ref="engine"> </property>&ndash;&gt;-->
+<!--    </bean>-->
 
-</beans>
+<!--</beans>-->

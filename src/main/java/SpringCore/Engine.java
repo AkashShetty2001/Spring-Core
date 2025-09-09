@@ -1,9 +1,15 @@
 package SpringCore;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Engine {
     private String name;
 
-    public Engine(String name){
+    @Autowired
+    public Engine(@Qualifier("engineName") String name){
         this.name=name;
     }
 
